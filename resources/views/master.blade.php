@@ -5,7 +5,7 @@
 </head>
 <body>
 <h3>Livewire Website</h3>
-<livewire:header/>
+@livewire('layouts.header',['article'=>$article])
 
 <livewire:scripts/>
 </body>

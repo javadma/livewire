@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('master');
+    $article = [
+        'title' => 'this is article 1',
+        'body' => 'this is body of article 1'
+    ];
+    return view('master',compact('article'));
 });

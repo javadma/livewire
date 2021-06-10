@@ -3,4 +3,7 @@
         <li>Home</li>
         <li>About</li>
     </ul>
+    <div>
+        {{$article['title']}}
+    </div>
 </div>
