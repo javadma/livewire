@@ -20,3 +20,4 @@ Route::get('/', function () {
     ];
     return view('master',compact('article'));
 });
+Route::get('/articles',\App\Http\Livewire\Articles\Index::class);
