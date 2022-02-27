@@ -6,4 +6,7 @@
     <div>
         {{$article['title']}}
     </div>
+    <div>
+        {{$article['body']}}
+    </div>
 </div>
